@@ -1,2 +1,2 @@
-# Blog-example-with-Tinymce-
+# Blog-example-with-Tinymce
 This is blog example for your own use.
