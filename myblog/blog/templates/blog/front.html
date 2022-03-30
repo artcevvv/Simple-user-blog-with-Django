@@ -1,0 +1,19 @@
+{% extends 'blog/main.html' %}
+{% load static %}
+{% block content %}
+    {% for post in posts %}
+    <div class="column is-full">
+        <div class="box">
+            <a class="subtitle" href="{% url 'post' post.slug %}"><strong>{{ post.title }}</strong></a>
+            <br>
+            <small>posted at: {{ post.date }}</small>
+            <img class="thumbnail" src="{{post.imageURL}}">
+            <p>{{ post.intro }}</p>
+            <br>
+            <button class="button">
+                <a href="{% url 'post' post.slug %}">Read more</a>
+            </button>
+        </div>
+    </div>
+    {% endfor %}
+{% endblock %}
