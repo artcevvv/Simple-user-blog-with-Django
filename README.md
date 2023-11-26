@@ -17,11 +17,11 @@ Backend was made by Django. JS almost wasn't used(only tinymce ready JavaScript)
 
 ## Building
 
-1. **Run Migrations:**
+1. ### Run Migrations:
    Run `python manage.py makemigrations` followed by `python manage.py migrate` to create and apply the migrations to the database.
-2. **Create a Superuser:**
+2. ### Create a Superuser:
    Use `python manage.py createsuperuser` to create a superuser account. This account will have access to the Django admin interface.
-3. **Access the Admin Interface:**
+3. ### Access the Admin Interface:
    Start your Django development server using `python manage.py runserver` and navigate to [admin page](http://127.0.0.1:8000/admin/) in your browser. Log in using the superuser credentials created earlier.
 
 
