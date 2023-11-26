@@ -1,4 +1,4 @@
-# Simple user blog with Tinymce
+# Simple user blog with Django & Tinymce 
 
 
 
