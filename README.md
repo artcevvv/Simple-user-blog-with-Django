@@ -8,9 +8,8 @@ Backend was made by Django. JS almost wasn't used(only tinymce ready JavaScript)
 
 ## Building on your PC
 
-[!IMPORTANT]
-
-You need to create virtual enviroment using `python -m venv /path/to/new/virtual/environment`. 
+>[!IMPORTANT]
+>You need to create virtual enviroment using `python -m venv /path/to/new/virtual/environment`. 
 
 Moreover, you need to install django with `python -m pip install Django` and django-tinymce `pip install django-tinymce`
 
