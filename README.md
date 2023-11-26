@@ -1,19 +1,23 @@
 # Simple user blog with Tinymce
 
-Built with Django, Tinymce & [Bulma](https://bulma.io/)
+
+
+## Tech Stack
+
+Made with Django(supports 4.2.7), Tinymce & [Bulma](https://bulma.io/)
 
 Font: [Red Hat Mono SemiBold 600](https://fonts.google.com/specimen/Red+Hat+Mono)
 
-Backend was made by Django. JS almost wasn't used(only tinymce ready JavaScript).
+Back-end was made by Django. JS wasn't used (only Tinymce JavaScript).
 
 ## Dependencies
 
 >[!IMPORTANT]
->You need to create virtual enviroment using `python -m venv /path/to/new/virtual/environment`. 
-
->Moreover, you need to install django with `python -m pip install Django` and django-tinymce `pip install django-tinymce`
-
->For loading images install Pillow with `pip install pillow`
+>1. Create virtual enviroment using `python -m venv /path/to/new/virtual/environment`. 
+>
+>2. Install django with `python -m pip install Django` and django-tinymce `pip install django-tinymce` 
+>
+>3. For loading images install Pillow with `pip install pillow` 
 
 ## Building
 
@@ -27,6 +31,6 @@ Backend was made by Django. JS almost wasn't used(only tinymce ready JavaScript)
 
 ## File structure
 
-HTML files placed in [templates/blog](myblog/blog/templates/blog) folder. 
+HTML placed in [templates/blog](myblog/blog/templates/blog).
 
-CSS file(main.css) placed in [myblog/static/css](myblog/static/css) folder.
+CSS placed in [myblog/static/css](myblog/static/css).
